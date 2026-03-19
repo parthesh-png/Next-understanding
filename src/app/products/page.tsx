@@ -18,7 +18,7 @@ function Products(){
                 products.map((product) =>(
                     <div key ={product.id} className="border">
                         <h2>{product.name}</h2>
-                        <p>${product.price}</p>
+                        <p>{product.price}</p>
 
                         <Link href = {`/products/${product.id}`} > View Details
                         </Link>
